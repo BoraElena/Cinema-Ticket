@@ -1,0 +1,61 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+  color: beige;
+}
+
+.movie {
+
+  width: 90%;
+  margin: 1em auto;
+}
+
+.container {
+  display: grid;
+  margin-left: 0.5px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5em;
+  justify-content: center;
+}
+.img-card{
+  width: 80%;
+  border: solid 3px rgb(10, 10, 10);
+}
+
+.overplay {
+  color: black;
+}
+.modal {
+  /* background-image: url("./modalbackround.jpg"); */
+  background-color: rgba(154, 130, 177, 0.082);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2em;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.close-button {
+  border: none;
+  background: transparent;
+  padding: 10px;
+  cursor: pointer;
+  color: rgb(10, 1, 1);
+  font-size: 45px;
+}
+
+.close-button:hover {
+  color: rgb(226, 226, 168);
+}
+
+.button {
+  border: none;
+  background: transparent;
+  color: rgb(1, 4, 7);
+  font-size: 24px;
+}

@@ -1,0 +1,75 @@
+.Movies {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  color: #050404;
+  padding: 30px;
+  text-shadow: 0 0 20px #e7a1e78c;
+}
+
+.Movies select {
+  appearance: none;
+  background: #ebc7e5c5;
+  font-size: 20px;
+  margin-left: 25px;
+  border-radius: 2rem;
+  width: 15%;
+}
+
+.Cinema {
+  margin-bottom: 18px;
+  display: grid;
+  place-items: center;
+  grid-gap: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.Cinema .screen {
+  height: 70px;
+  background: rgb(243, 231, 231);
+  width: 10%;
+  box-shadow: 10px 10px 10px #000c09c2;
+}
+
+.Cinema .seats {
+  display: grid;
+  grid-gap: 6px;
+  grid-template-columns: repeat(8, min-content);
+  align-items: center;
+}
+
+.seat {
+  background: #e9e1e1;
+  width: 30px;
+  height: 30px;
+  border-radius: 2rem;
+  position: relative;
+  top: 1px;
+  border: solid 1px rgb(69, 12, 202);
+}
+
+.seat.selected {
+  background: #4c32b3;
+}
+
+.seat.occupied {
+  background: #b92c13d0;
+}
+
+.info {
+  text-align: center;
+  color: #070605;
+  font-size: x-large;
+  padding: 40px;
+}
+
+.btn-ticket{
+  height: 2rem;
+  border-radius: 1rem;
+  border: none;
+  text-align: center;
+}
+.btn-ticket:hover{
+  background-color: rgba(53, 20, 47, 0.39);
+}

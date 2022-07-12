@@ -1,0 +1,15 @@
+/* .clock{
+    text-align-last:right;
+    color: black;
+} */
+
+#time-left{
+    text-align-last: left;
+    color: black;
+
+}
+
+#time-right{
+    text-align-last:right ;
+    color: black;
+}
