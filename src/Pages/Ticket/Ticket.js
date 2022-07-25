@@ -4,34 +4,44 @@ import clsx from "clsx";
 
 const movies = [
   {
-    name: "Batman",
+    name: "Jurassic World",
     price: 10,
     occupied: [20, 21, 30, 1, 2, 8],
   },
   {
-    name: "Dr Strange",
+    name: "Minion",
     price: 12,
     occupied: [9, 35, 11, 65, 26],
   },
   {
-    name: "Morbius",
+    name: "Top Gun",
     price: 8,
     occupied: [37, 44, 13, 2, 3],
   },
   {
-    name: "Fantastic Beast",
+    name: "Thor",
     price: 9,
     occupied: [10, 12, 33, 28, 47],
   },
   {
-    name: "Thor",
+    name: "Lightyear",
     price: 10,
     occupied: [11, 50, 23, 72, 72],
   },
   {
-    name: "Viking",
-    price: 10,
-    occupied: [3, 13, 70],
+    name: "The Balck Phone",
+    price: 13,
+    occupied: [3, 50],
+  },
+  {
+    name: "Doctor Strange",
+    price: 7,
+    occupied: [69, 70],
+  },
+  {
+    name: "The Princess",
+    price: 5,
+    occupied: [60, 61],
   },
 ];
 
@@ -62,17 +72,13 @@ export default function Ticket() {
       <p className="info">
         You have selected <span className="count">{selectedSeats.length}</span>{" "}
         seats for the price of{" "}
-        
         <span className="total">
-          {selectedSeats.length * selectedMovie.price}$
-          <br></br>
-           <button type="submit" className="btn-ticket" >
-              Get the tickets!
-            </button>
+          {selectedSeats.length * selectedMovie.price}$<br></br>
+          <button type="submit" className="btn-ticket">
+            Get the tickets!
+          </button>
         </span>
-         
       </p>
-      
     </div>
   );
 }

@@ -1,34 +1,29 @@
-.Table{
-    width: 100%;
-    text-align: center;
-    padding: 7.8rem;
-    font-size: 30px;
-    float: right;
-    background:scroll;
- 
-   
-
+.Table {
+  width: 100%;
+  text-align: center;
+  padding: 7.8rem;
+  font-size: 30px;
+  float: right;
+  background: scroll;
 }
-table{
-    float:right;
-    background-image: url("./icon//popcorn.jpg");
- 
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 1rem;
-    color: rgb(7, 7, 7);
-    padding: 2rem;
-    
+table {
+  float: right;
+  background-image: url("./icon//popcorn.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  color: rgb(7, 7, 7);
+  padding: 2rem;
+  width: 50%;
+  height: 20rem;
 }
-thead{
-    font-size: 40px;
-    
+thead {
+  font-size: 40px;
 }
-.tbody{
-    
- background-color: rgba(147, 27, 202, 0.548); 
+.tbody {
+  background-color: rgba(147, 27, 202, 0.548);
 }
-.td-border{
+.td-border {
   border: 2px solid rgba(87, 34, 34, 0.274);
   border-radius: 1rem;
 }

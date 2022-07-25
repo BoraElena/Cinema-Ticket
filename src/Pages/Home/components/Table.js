@@ -47,9 +47,10 @@ export default function Table() {
   const Content = [...contents_1];
 
   return (
-  
     <div className="Table">
-       <div><Clock/></div>
+      <div>
+        <Clock />
+      </div>
       <table>
         <thead>
           <tr>
